@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>neural_network_main</title>
+    <meta name="generator" content="pydoctor 24.11.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+    
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          neural_network_main <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="apidocs-help-button" title="Help" href="apidocs-help.html"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 10px;">
+          <p>For more information on the search, visit the <a href="apidocs-help.html#rst-search">help page</a>.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code class="thisobject"><a href="index.html" class="internal-link" title="This module">neural<wbr></wbr>_network<wbr></wbr>_main</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Functions</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#extract_dominant_emotion" class="internal-link" title="neural_network_main.extract_dominant_emotion">extract<wbr></wbr>_dominant<wbr></wbr>_emotion</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#face_analyse" class="internal-link" title="neural_network_main.face_analyse">face<wbr></wbr>_analyse</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#find_playlist" class="internal-link" title="neural_network_main.find_playlist">find<wbr></wbr>_playlist</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#get_playlist_link" class="internal-link" title="neural_network_main.get_playlist_link">get<wbr></wbr>_playlist<wbr></wbr>_link</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#load_mood_playlist_mapping" class="internal-link" title="neural_network_main.load_mood_playlist_mapping">load<wbr></wbr>_mood<wbr></wbr>_playlist<wbr></wbr>_mapping</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#main" class="internal-link" title="neural_network_main.main">main</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#print_age_info" class="internal-link" title="neural_network_main.print_age_info">print<wbr></wbr>_age<wbr></wbr>_info</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#print_analysis_result" class="internal-link" title="neural_network_main.print_analysis_result">print<wbr></wbr>_analysis<wbr></wbr>_result</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#print_emotion_info" class="internal-link" title="neural_network_main.print_emotion_info">print<wbr></wbr>_emotion<wbr></wbr>_info</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#print_gender_info" class="internal-link" title="neural_network_main.print_gender_info">print<wbr></wbr>_gender<wbr></wbr>_info</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#print_race_info" class="internal-link" title="neural_network_main.print_race_info">print<wbr></wbr>_race<wbr></wbr>_info</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#process_analysis_result" class="internal-link" title="neural_network_main.process_analysis_result">process<wbr></wbr>_analysis<wbr></wbr>_result</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#save_analysis_result" class="internal-link" title="neural_network_main.save_analysis_result">save<wbr></wbr>_analysis<wbr></wbr>_result</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="module"><code><code><a href="index.html" class="internal-link">neural_network_main</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          module documentation
+        </div>
+
+        <div class="extrasDocstring">
+          
+          <p></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id1">
+  
+  
+  <tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#extract_dominant_emotion" class="internal-link" title="neural_network_main.extract_dominant_emotion">extract<wbr></wbr>_dominant<wbr></wbr>_emotion</a></code></td>
+    <td>Извлекает доминирующую эмоцию из результата анализа.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#face_analyse" class="internal-link" title="neural_network_main.face_analyse">face<wbr></wbr>_analyse</a></code></td>
+    <td>Выполняет анализ лица и связывает эмоции с плейлистами.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#find_playlist" class="internal-link" title="neural_network_main.find_playlist">find<wbr></wbr>_playlist</a></code></td>
+    <td>Ищет ссылку на плейлист по переданной эмоции.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#get_playlist_link" class="internal-link" title="neural_network_main.get_playlist_link">get<wbr></wbr>_playlist<wbr></wbr>_link</a></code></td>
+    <td>Возвращает ссылку на плейлист на основе эмоции.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#load_mood_playlist_mapping" class="internal-link" title="neural_network_main.load_mood_playlist_mapping">load<wbr></wbr>_mood<wbr></wbr>_playlist<wbr></wbr>_mapping</a></code></td>
+    <td>Загружает JSON-словарь, связывающий эмоции с плейлистами SoundCloud.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#main" class="internal-link" title="neural_network_main.main">main</a></code></td>
+    <td>Запускает процесс анализа лица.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#print_age_info" class="internal-link" title="neural_network_main.print_age_info">print<wbr></wbr>_age<wbr></wbr>_info</a></code></td>
+    <td>Выводит информацию о возрасте.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#print_analysis_result" class="internal-link" title="neural_network_main.print_analysis_result">print<wbr></wbr>_analysis<wbr></wbr>_result</a></code></td>
+    <td>Выводит данные анализа лица.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#print_emotion_info" class="internal-link" title="neural_network_main.print_emotion_info">print<wbr></wbr>_emotion<wbr></wbr>_info</a></code></td>
+    <td>Выводит информацию об эмоциях.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#print_gender_info" class="internal-link" title="neural_network_main.print_gender_info">print<wbr></wbr>_gender<wbr></wbr>_info</a></code></td>
+    <td>Выводит информацию о поле.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#print_race_info" class="internal-link" title="neural_network_main.print_race_info">print<wbr></wbr>_race<wbr></wbr>_info</a></code></td>
+    <td>Выводит информацию о расах.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#process_analysis_result" class="internal-link" title="neural_network_main.process_analysis_result">process<wbr></wbr>_analysis<wbr></wbr>_result</a></code></td>
+    <td>Обрабатывает результат анализа, чтобы извлечь словарь.</td>
+  </tr><tr class="function">
+    
+    <td>Function</td>
+    <td><code><a href="#save_analysis_result" class="internal-link" title="neural_network_main.save_analysis_result">save<wbr></wbr>_analysis<wbr></wbr>_result</a></code></td>
+    <td>Сохраняет результат анализа в JSON-файл.</td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basefunction">
+  
+  
+  <a name="neural_network_main.extract_dominant_emotion">
+    
+  </a>
+  <a name="extract_dominant_emotion">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">extract_dominant_emotion</span><span class="function-signature">(emotion)</span>:
+    
+    <a class="headerLink" href="#extract_dominant_emotion" title="neural_network_main.extract_dominant_emotion">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Извлекает доминирующую эмоцию из результата анализа.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">emotion</span></td><td class="fieldArgDesc">Словарь с данными о эмоциях.</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2">Строка с доминирующей эмоцией или 'neutral', если эмоция отсутствует.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.face_analyse">
+    
+  </a>
+  <a name="face_analyse">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">face_analyse</span><span class="function-signature">(image_path)</span>:
+    
+    <a class="headerLink" href="#face_analyse" title="neural_network_main.face_analyse">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выполняет анализ лица и связывает эмоции с плейлистами.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">image<wbr></wbr>_path</span></td><td class="fieldArgDesc">Путь к изображению для анализа.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.find_playlist">
+    
+  </a>
+  <a name="find_playlist">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">find_playlist</span><span class="function-signature">(dominant_emotion, playlist_mapping)</span>:
+    
+    <a class="headerLink" href="#find_playlist" title="neural_network_main.find_playlist">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Ищет ссылку на плейлист по переданной эмоции.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">dominant<wbr></wbr>_emotion</span></td><td class="fieldArgDesc">Строка с доминирующей эмоцией.</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">playlist<wbr></wbr>_mapping</span></td><td class="fieldArgDesc">Словарь, связывающий эмоции с плейлистами.</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2">Ссылка на плейлист или ссылка на плейлист по умолчанию, если не найдено.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.get_playlist_link">
+    
+  </a>
+  <a name="get_playlist_link">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">get_playlist_link</span><span class="function-signature">(emotion, playlist_mapping)</span>:
+    
+    <a class="headerLink" href="#get_playlist_link" title="neural_network_main.get_playlist_link">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Возвращает ссылку на плейлист на основе эмоции.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">emotion</span></td><td class="fieldArgDesc">Словарь с данными о эмоциях.</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">playlist<wbr></wbr>_mapping</span></td><td class="fieldArgDesc">Словарь, связывающий эмоции с плейлистами.</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2">Ссылка на плейлист, соответствующий доминирующей эмоции.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.load_mood_playlist_mapping">
+    
+  </a>
+  <a name="load_mood_playlist_mapping">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">load_mood_playlist_mapping</span><span class="function-signature">(filename=<span class="rst-variable-quote">'</span><span class="rst-variable-string">mood_playlist_mapping_soundcloud.json</span><span class="rst-variable-quote">'</span>)</span>:
+    
+    <a class="headerLink" href="#load_mood_playlist_mapping" title="neural_network_main.load_mood_playlist_mapping">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Загружает JSON-словарь, связывающий эмоции с плейлистами SoundCloud.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">filename</span></td><td class="fieldArgDesc">Путь к JSON-файлу с данными (по умолчанию 'mood_playlist_mapping_soundcloud.json').</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2">Словарь с данными из файла или пустой словарь в случае ошибки.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.main">
+    
+  </a>
+  <a name="main">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">main</span><span class="function-signature">()</span>:
+    
+    <a class="headerLink" href="#main" title="neural_network_main.main">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Запускает процесс анализа лица.</p></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.print_age_info">
+    
+  </a>
+  <a name="print_age_info">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">print_age_info</span><span class="function-signature">(age)</span>:
+    
+    <a class="headerLink" href="#print_age_info" title="neural_network_main.print_age_info">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выводит информацию о возрасте.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">age</span></td><td class="fieldArgDesc">Возраст человека.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.print_analysis_result">
+    
+  </a>
+  <a name="print_analysis_result">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">print_analysis_result</span><span class="function-signature">(result_dict)</span>:
+    
+    <a class="headerLink" href="#print_analysis_result" title="neural_network_main.print_analysis_result">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выводит данные анализа лица.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">result<wbr></wbr>_dict</span></td><td class="fieldArgDesc">Словарь с результатами анализа лица.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.print_emotion_info">
+    
+  </a>
+  <a name="print_emotion_info">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">print_emotion_info</span><span class="function-signature">(emotion_dict)</span>:
+    
+    <a class="headerLink" href="#print_emotion_info" title="neural_network_main.print_emotion_info">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выводит информацию об эмоциях.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">emotion<wbr></wbr>_dict</span></td><td class="fieldArgDesc">Словарь с данными о эмоциях и их процентах.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.print_gender_info">
+    
+  </a>
+  <a name="print_gender_info">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">print_gender_info</span><span class="function-signature">(gender)</span>:
+    
+    <a class="headerLink" href="#print_gender_info" title="neural_network_main.print_gender_info">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выводит информацию о поле.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">gender</span></td><td class="fieldArgDesc">Пол человека.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.print_race_info">
+    
+  </a>
+  <a name="print_race_info">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">print_race_info</span><span class="function-signature">(race_dict)</span>:
+    
+    <a class="headerLink" href="#print_race_info" title="neural_network_main.print_race_info">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Выводит информацию о расах.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">race<wbr></wbr>_dict</span></td><td class="fieldArgDesc">Словарь с данными о расах и их процентах.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.process_analysis_result">
+    
+  </a>
+  <a name="process_analysis_result">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">process_analysis_result</span><span class="function-signature">(result)</span>:
+    
+    <a class="headerLink" href="#process_analysis_result" title="neural_network_main.process_analysis_result">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Обрабатывает результат анализа, чтобы извлечь словарь.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">result</span></td><td class="fieldArgDesc">Результат анализа, который может быть списком или словарем.</td></tr><tr class="fieldStart"><td class="fieldName" colspan="2">Returns</td></tr><tr><td colspan="2">Словарь с результатами анализа.</td></tr></table></div>
+  </div>
+</div><div class="basefunction">
+  
+  
+  <a name="neural_network_main.save_analysis_result">
+    
+  </a>
+  <a name="save_analysis_result">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">save_analysis_result</span><span class="function-signature">(result_dict, filename)</span>:
+    
+    <a class="headerLink" href="#save_analysis_result" title="neural_network_main.save_analysis_result">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Сохраняет результат анализа в JSON-файл.</p><table class="fieldTable"><tr class="fieldStart"><td class="fieldName" colspan="2">Parameters</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">result<wbr></wbr>_dict</span></td><td class="fieldArgDesc">Словарь с результатами анализа для сохранения.</td></tr><tr><td class="fieldArgContainer"><span class="fieldArg">filename</span></td><td class="fieldArgDesc">Путь к файлу для сохранения результата.</td></tr></table></div>
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container-fluid">
+    <a href="index.html">API Documentation</a> for neural_network_main,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    24.11.1 at 2024-12-19 01:58:19.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
