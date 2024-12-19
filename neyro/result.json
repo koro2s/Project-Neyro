@@ -1,0 +1,8 @@
+{
+    "verified": false,
+    "distance": 0.4270368924400515,
+    "threshold": 0.4,
+    "model": "VGG-Face",
+    "detector_backend": "opencv",
+    "similarity_metric": "cosine"
+}
